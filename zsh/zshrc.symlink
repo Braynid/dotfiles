@@ -5,7 +5,7 @@ export LANG=ro_RO.UTF-8
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/code
+export PROJECTS=~/Projects
 
 # load antigen
 source $HOME/.dotfiles/antigen/antigen.zsh
