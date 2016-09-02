@@ -62,3 +62,5 @@ antigen theme caiogondim/bullet-train-oh-my-zsh-theme bullet-train
 # set vim bindings
 bindkey -v
 
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
