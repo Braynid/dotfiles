@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# Encrypts a file
+
+openssl enc -aes-256-cbc -in "$1" -out "$1.enc" 
+
+[[ -f "$1" ]] && rm -f "$1"
