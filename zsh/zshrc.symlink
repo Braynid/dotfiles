@@ -1,5 +1,5 @@
-export LC_ALL=ro_RO.UTF-8
-export LANG=ro_RO.UTF-8
+export LC_ALL=en_US.UTF-8
+#export LANG=ro_RO.UTF-8
 
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
@@ -64,3 +64,5 @@ bindkey -v
 
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+#test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
