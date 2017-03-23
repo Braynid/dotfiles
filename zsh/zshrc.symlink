@@ -58,6 +58,7 @@ unset config_files
 # Load the theme.
 #antigen theme agnoster
 antigen theme caiogondim/bullet-train-oh-my-zsh-theme bullet-train
+export BULLETTRAIN_PROMPT_CHAR=\λ
 
 # set vim bindings
 bindkey -v
