@@ -1,0 +1,12 @@
+#!/usr/bin/env zsh
+
+git remote -v
+
+read -q "CONFIRMATION?Are you sure?"
+
+if [ "$CONFIRMATION" = "y" ]
+then
+    git remote remove origin && git remote add origin $1 && git push origin --all && git remote -v
+else
+    print "\nPress 'y' to continue, anything else to cancel"
+fi
